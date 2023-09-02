@@ -1,0 +1,32 @@
+
+ul:hover {
+    background-color: #f0f0f0;
+}
+
+li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    text-decoration: underline;
+}
+
+ul:nth-child(odd) {
+    background-color: #e0e0e0;
+}
+
+ul:nth-child(even) {
+    background-color: #d0d0d0;
+}
+
+ul li:nth-child(2n) {
+    color: blue;
+}
+
+ul li:nth-child(3n) {
+    color: green;
+}
+
+ul li:nth-child(4n) {
+    color: red;
+}
